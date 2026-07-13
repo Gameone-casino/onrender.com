@@ -653,3 +653,11 @@ body.light .btn-ghost { color: var(--text); border-color: #cfd6e6; }
   .hero-stats .stat .n { font-size: 21px; }
   .hero-stats .stat .l { font-size: 11px; }
 }
+
+/* фикс: панель "о бренде" не должна обрезать контент (wordmark) */
+.about-panel { aspect-ratio: auto; overflow: visible; }
+.about-panel .about-panel-inner { padding: 30px 24px; }
+@media (max-width: 720px) {
+  .about-wordmark { font-size: 30px; letter-spacing: 1px; }
+  .about-panel .about-panel-inner { padding: 26px 18px; }
+}
