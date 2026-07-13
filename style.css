@@ -139,7 +139,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- Description / About ---------- */
 .about-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: 44px; align-items: center; }
-.about-copy h3 { font-size: 24px; margin-bottom: 14px; }
+.about-copy h2, .about-copy h3 { font-size: 24px; margin-bottom: 14px; }
 .about-copy p { color: var(--muted); margin-bottom: 16px; }
 .about-copy .chips { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 18px; }
 .chip { font-size: 13px; font-weight: 700; color: var(--gold-2); background: rgba(245,182,74,.08);
@@ -161,7 +161,7 @@ a { color: inherit; text-decoration: none; }
 .feature:hover { border-color: rgba(245,182,74,.5); transform: translateY(-4px); }
 .feature .ic { width: 46px; height: 46px; border-radius: 12px; background: var(--grad-gold); color: #1a1205;
   display: flex; align-items: center; justify-content: center; font-size: 22px; font-weight: 900; margin-bottom: 16px; }
-.feature h4 { font-size: 17px; margin-bottom: 8px; }
+.feature h3 { font-size: 17px; margin-bottom: 8px; }
 .feature p { font-size: 14px; color: var(--muted); }
 
 /* ---------- Live casino ---------- */
@@ -172,7 +172,7 @@ a { color: inherit; text-decoration: none; }
 .live-media .play { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; }
 .live-media .play span { width: 74px; height: 74px; border-radius: 50%; background: rgba(245,182,74,.92); color:#1a1205;
   display: flex; align-items: center; justify-content: center; font-size: 26px; box-shadow: 0 0 0 12px rgba(245,182,74,.18); }
-.live-copy h3 { font-size: 26px; margin-bottom: 12px; }
+.live-copy h2, .live-copy h3 { font-size: 26px; margin-bottom: 12px; }
 .live-copy p { color: var(--muted); margin-bottom: 20px; }
 .provider-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; }
 .provider { background: var(--card-2); border: 1px solid var(--line); border-radius: var(--radius-sm);
@@ -192,7 +192,7 @@ a { color: inherit; text-decoration: none; }
 .slot-thumb .hot { position: absolute; top: 10px; right: 10px; background: var(--accent); color: #fff;
   font-size: 11px; font-weight: 800; padding: 4px 9px; border-radius: 999px; }
 .slot-body { padding: 14px 16px; }
-.slot-body h4 { font-size: 16px; }
+.slot-body h3 { font-size: 16px; }
 .slot-body .prov { font-size: 12px; color: var(--muted); margin-top: 2px; }
 .slot-body .rtp { margin-top: 10px; font-size: 12px; color: var(--green); font-weight: 700; }
 .slots-more { text-align: center; margin-top: 36px; }
@@ -211,13 +211,13 @@ a { color: inherit; text-decoration: none; }
 .bonus-media .tag { position: absolute; top: 12px; left: 12px; background: var(--grad-gold); color:#1a1205;
   font-size: 12px; font-weight: 800; padding: 5px 12px; border-radius: 999px; }
 .bonus-body { padding: 22px 22px 26px; display: flex; flex-direction: column; flex: 1; }
-.bonus-body h4 { font-size: 19px; margin-bottom: 6px; }
+.bonus-body h3 { font-size: 19px; margin-bottom: 6px; }
 .bonus-body .amt { font-size: 30px; font-weight: 900; color: var(--gold); margin: 6px 0 10px; }
 .bonus-body p { font-size: 14px; color: var(--muted); flex: 1; }
 .bonus-body .btn { margin-top: 18px; width: 100%; }
 
 .cashback { margin-top: 36px; background: var(--card-2); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px 28px; }
-.cashback h4 { font-size: 18px; margin-bottom: 16px; text-align: center; }
+.cashback h3 { font-size: 18px; margin-bottom: 16px; text-align: center; }
 .cashback-row { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; }
 .cashback-item { text-align: center; padding: 8px 20px; }
 .cashback-item .n { font-size: 26px; font-weight: 900; color: var(--gold); }
@@ -236,7 +236,7 @@ a { color: inherit; text-decoration: none; }
 .promo-card .copy:hover { background: var(--gold); color: #1a1205; }
 .promo-note { text-align: center; color: var(--muted); font-size: 13px; margin-top: 22px; }
 .promo-card .step-no { font-size: 34px; font-weight: 900; color: var(--gold-2); font-family: "Courier New", monospace; margin-bottom: 6px; }
-.promo-card h4 { font-size: 18px; margin-bottom: 8px; }
+.promo-card h3 { font-size: 18px; margin-bottom: 8px; }
 .promo-list { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
 .promo-item { text-align: left; padding: 14px 16px; background: rgba(255,255,255,.03); border: 1px solid var(--line); border-radius: var(--radius-sm); }
 .promo-item b { display: block; color: var(--gold); font-size: 15px; margin-bottom: 5px; }
@@ -245,7 +245,7 @@ a { color: inherit; text-decoration: none; }
 
 /* ---------- Mobile ---------- */
 .mobile-wrap { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; align-items: center; }
-.mobile-copy h3 { font-size: 28px; margin-bottom: 14px; }
+.mobile-copy h2, .mobile-copy h3 { font-size: 28px; margin-bottom: 14px; }
 .mobile-copy p { color: var(--muted); margin-bottom: 22px; }
 .mobile-list { list-style: none; display: flex; flex-direction: column; gap: 14px; margin-bottom: 26px; }
 .mobile-list li { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; }
@@ -274,12 +274,12 @@ a { color: inherit; text-decoration: none; }
 .footer-top { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 34px; }
 .footer-brand img { height: 46px; margin-bottom: 16px; }
 .footer-brand p { color: var(--muted); font-size: 14px; max-width: 280px; }
-.footer-col h5 { font-size: 14px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
+.footer-col h2 { font-size: 14px; letter-spacing: 1px; text-transform: uppercase; color: var(--gold); margin-bottom: 14px; }
 .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 9px; }
 .footer-col a { color: var(--muted); font-size: 14px; }
 .footer-col a:hover { color: var(--gold); }
 .partners { margin-top: 40px; padding-top: 26px; border-top: 1px solid var(--line); }
-.partners h5 { text-align: center; color: var(--muted); font-size: 13px; letter-spacing: 1px; margin-bottom: 16px; text-transform: uppercase; }
+.partners h2 { text-align: center; color: var(--muted); font-size: 13px; letter-spacing: 1px; margin-bottom: 16px; text-transform: uppercase; }
 .partners-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
 .partners-row span { font-size: 12px; color: var(--muted); background: var(--card); border: 1px solid var(--line); padding: 6px 13px; border-radius: 8px; }
 .footer-bottom { margin-top: 30px; padding-top: 22px; border-top: 1px solid var(--line); display: flex; flex-wrap: wrap; gap: 14px; justify-content: space-between; align-items: center; }
@@ -357,7 +357,7 @@ a { color: inherit; text-decoration: none; }
 .rating-row .val { width: 40px; text-align: right; font-weight: 800; color: var(--gold); flex: none; }
 .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
 .pc-card { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; }
-.pc-card h4 { font-size: 19px; margin-bottom: 14px; }
+.pc-card h3 { font-size: 19px; margin-bottom: 14px; }
 .pc-card.good h4 { color: var(--green); }
 .pc-card.warn h4 { color: var(--accent); }
 .pc-card ul { list-style: none; display: flex; flex-direction: column; gap: 12px; }
